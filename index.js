@@ -30,4 +30,9 @@ mongoose.connect(process.env.DB_CONNECTION, { useUnifiedTopology: true }, () =>
  console.log("connected")
 )
 
-app.listen(3000);
+let port = process.env.PORT || 8000;
+
+
+app.listen(port, () => {
+    console.log(`app is running at the port ${port}`);
+});
