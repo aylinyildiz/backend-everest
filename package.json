@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,13 +20,8 @@
   "devDependencies": {
     "@types/dotenv": "^8.2.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aylinyildiz/everest-backend.git"
-  },
   "keywords": [],
   "bugs": {
     "url": "https://github.com/aylinyildiz/everest-backend/issues"
-  },
-  "homepage": "https://github.com/aylinyildiz/everest-backend#readme"
+  }
 }
